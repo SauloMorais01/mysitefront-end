@@ -54,11 +54,6 @@
 /* pagina */
 body {
     background: var(--body-color-normal);
-    height: 100%;
-}
-
-html {
-    height: 100%;
 }
 
 a {
@@ -150,13 +145,10 @@ footer h3 {
     margin-top: 20px;
 }
 
-.divisor {
-    height: 100%;
-}
-
 footer {
     clear: both;
     width: 100%;
+    position: fixed;
     bottom: 0;
 }
 

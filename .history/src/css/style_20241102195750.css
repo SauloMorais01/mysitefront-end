@@ -54,11 +54,6 @@
 /* pagina */
 body {
     background: var(--body-color-normal);
-    height: 100%;
-}
-
-html {
-    height: 100%;
 }
 
 a {
@@ -132,32 +127,11 @@ footer h3 {
     animation-iteration-count: infinite;
 }
 
-.workflow {
-    margin-top: 20px;
-}
-
-.workflow-title {
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
 .box-workflow {
     height: 300px;
     width: 300px;
     margin: 10px;
-    background-color:var(--primary-color-medium);
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.divisor {
-    height: 100%;
-}
-
-footer {
-    clear: both;
-    width: 100%;
-    bottom: 0;
+    background-color:var(--secondary-color-normal);
 }
 
 /* Animation */
@@ -220,12 +194,11 @@ footer {
 }
 
 .grid-temp {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content: center;
+    width: var(--grid-width); height: var(--grid-height);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    align-self: center;
 }
 
 .primary-color{

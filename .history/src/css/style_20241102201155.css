@@ -54,11 +54,6 @@
 /* pagina */
 body {
     background: var(--body-color-normal);
-    height: 100%;
-}
-
-html {
-    height: 100%;
 }
 
 a {
@@ -150,16 +145,6 @@ footer h3 {
     margin-top: 20px;
 }
 
-.divisor {
-    height: 100%;
-}
-
-footer {
-    clear: both;
-    width: 100%;
-    bottom: 0;
-}
-
 /* Animation */
 @keyframes menuAnim {
     from {
@@ -220,12 +205,10 @@ footer {
 }
 
 .grid-temp {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items:center;
-    justify-content: center;
 }
 
 .primary-color{
