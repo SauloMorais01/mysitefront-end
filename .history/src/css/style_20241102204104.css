@@ -151,6 +151,14 @@ footer h3 {
     padding: 10px;
 }
 
+/* .divisor {
+    height: 80%;
+} */
+
+footer {
+    width: 100%;
+    bottom: 0;
+}
 
 /* Animation */
 @keyframes menuAnim {
@@ -252,8 +260,10 @@ footer h3 {
     header {
         position: fixed;
         top: 0;
+    }
+
+    .top-box {
         height: 40px;
-        width: 100%;
     }
 
     #menu {
@@ -339,8 +349,10 @@ footer h3 {
     header {
         position: fixed;
         top: 0;
+    }
+
+    .top-box {
         height: 40px;
-        width: 100%;
     }
 
     #menu {
@@ -428,10 +440,12 @@ footer h3 {
     }
 
     header {
+        height: 50px;
+    }
+
+    .top-box {
         position: fixed;
         top: 0;
-        height: 50px;
-        width: 100%;
     }
 
     #menu {

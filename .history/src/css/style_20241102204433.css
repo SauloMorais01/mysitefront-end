@@ -250,10 +250,7 @@ footer h3 {
     }
 
     header {
-        position: fixed;
-        top: 0;
         height: 40px;
-        width: 100%;
     }
 
     #menu {
@@ -337,10 +334,7 @@ footer h3 {
     }
 
     header {
-        position: fixed;
-        top: 0;
         height: 40px;
-        width: 100%;
     }
 
     #menu {
@@ -428,10 +422,7 @@ footer h3 {
     }
 
     header {
-        position: fixed;
-        top: 0;
         height: 50px;
-        width: 100%;
     }
 
     #menu {
