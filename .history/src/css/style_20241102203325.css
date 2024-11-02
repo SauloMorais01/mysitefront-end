@@ -134,12 +134,12 @@ footer h3 {
 
 .workflow {
     margin-top: 20px;
-    height: auto;
+    height: 40vh;
 }
 
 .workflow-title {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 .box-workflow {
@@ -151,9 +151,9 @@ footer h3 {
     padding: 10px;
 }
 
-/* .divisor {
+.divisor {
     height: 80%;
-} */
+}
 
 footer {
     width: 100%;

@@ -134,7 +134,7 @@ footer h3 {
 
 .workflow {
     margin-top: 20px;
-    height: auto;
+    height: 40vh;
 }
 
 .workflow-title {
@@ -151,9 +151,9 @@ footer h3 {
     padding: 10px;
 }
 
-/* .divisor {
-    height: 80%;
-} */
+.divisor {
+    height: 100%;
+}
 
 footer {
     width: 100%;
