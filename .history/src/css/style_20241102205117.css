@@ -73,6 +73,7 @@ main {
 
 footer {
     height: 60px;
+    overflow-x: auto;
 }
 
 footer h3 {
