@@ -1,0 +1,123 @@
+/* Primary configs */
+:root {
+    /* Colors */
+    /* Bases */
+    --primary-color: 0, 26, 110,;
+    --secondary-color: 184, 86%, 66%,;
+    --body-color: 0, 0%, 100%,;
+    --white-color: 0, 0%, 100%,;
+    --black-color: 0, 0%, 0%,;
+    /* End Bases */
+
+    /* Variations colors */
+    --primary-color-normal: hsla(var(--primary-color) 0.95);
+    --primary-color-medium: hsla(var(--primary-color) 0.5);
+    --primary-color-light: hsla(var(--primary-color) 0.250);
+
+    --secondary-color-normal: hsla(var(--secondary-color) 0.95);
+    --secondary-color-medium: hsla(var(--secondary-color) 0.5);
+    --secondary-color-light: hsla(var(--secondary-color) 0.250);
+
+    --body-color-normal: hsla(var(--body-color) 0.95);
+    --body-color-medium: hsla(var(--body-color) 0.5);
+    --body-color-light: hsla(var(--body-color) 0.250);
+
+    --black-color-normal: hsla(var(--black-color) 0.95);
+    --black-color-medium: hsla(var(--black-color) 0.5);
+    --black-color-light: hsla(var(--black-color) 0.250);
+
+    --white-color-normal: hsla(var(--white-color) 0.95);
+    --white-color-medium: hsla(var(--white-color) 0.5);
+    --white-color-light: hsla(var(--white-color) 0.250);
+    /* End variations colors */
+    /* End Colors */
+
+    /* Conf Sizes */
+    --container-width: 80%;
+    --grid-width: 20%;
+    --grid-height: 20%;
+    /* End conf Sizes */
+}
+
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* End global */
+
+body {
+    background: var(--body-color-normal);
+}
+
+/* Utils */
+.container {
+    margin: 0 auto;
+    width: var(--container-width);
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.grid-temp {
+    width: var(--grid-width); height: var(--grid-height);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.primary-color{
+    background: var(--primary-color-normal);
+}
+
+.secondary-color{
+    background: var(--secondary-color-normal);
+}
+
+.hd-color-black {
+    color: var(--black-color-normal);
+}
+
+.hd-color-white {
+    color: var(--white-color-normal);
+}
+/* End utils */
+
+
+
+/* Responsividade */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
+
+/* End responsividade */

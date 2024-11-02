@@ -1,0 +1,86 @@
+/* Primary configs */
+:root {
+    /* Colors */
+    --primary-color: 212, 81%, 44%,;
+    --secondary-color: hsla(184, 86%, 66%, 0.808);
+    --body-color: 0, 0%, 100%,;
+    --font-color: hsla(0, 0%, 0%, 0.849);
+    /* End Colors */
+
+    /* Conf Sizes */
+    --container-width: 80%;
+    --grid-width: 20%;
+    --grid-height: 20%;
+    /* End conf Sizes */
+}
+
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* End global */
+
+body {
+    background: hsla(var(--body-color) 0.918);
+}
+
+/* Utils */
+.container {
+    margin: 0 auto;
+    width: var(--container-width);
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.grid-temp {
+    width: var(--grid-width); height: var(--grid-height);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.primary-color{
+    background: hsla(var(--primary-color) 0.808);
+}
+/* End utils */
+
+
+
+/* Responsividade */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
+
+/* End responsividade */

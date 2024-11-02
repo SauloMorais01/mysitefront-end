@@ -1,0 +1,264 @@
+/* Primary configs */
+:root {
+    /* Colors */
+    /* Bases */
+    --primary-color: 226, 100%, 22%,;
+    --secondary-color: 184, 86%, 66%,;
+    --body-color: 0, 0%, 100%,;
+    --white-color: 0, 0%, 100%,;
+    --black-color: 0, 0%, 0%,;
+    /* End Bases */
+
+    /* Variations colors */
+    --primary-color-normal: hsla(var(--primary-color) 0.95);
+    --primary-color-medium: hsla(var(--primary-color) 0.5);
+    --primary-color-light: hsla(var(--primary-color) 0.250);
+
+    --secondary-color-normal: hsla(var(--secondary-color) 0.95);
+    --secondary-color-medium: hsla(var(--secondary-color) 0.5);
+    --secondary-color-light: hsla(var(--secondary-color) 0.250);
+
+    --body-color-normal: hsla(var(--body-color) 0.95);
+    --body-color-medium: hsla(var(--body-color) 0.5);
+    --body-color-light: hsla(var(--body-color) 0.250);
+
+    --black-color-normal: hsla(var(--black-color) 0.95);
+    --black-color-medium: hsla(var(--black-color) 0.5);
+    --black-color-light: hsla(var(--black-color) 0.250);
+
+    --white-color-normal: hsla(var(--white-color) 0.95);
+    --white-color-medium: hsla(var(--white-color) 0.5);
+    --white-color-light: hsla(var(--white-color) 0.250);
+    /* End variations colors */
+    /* End Colors */
+
+    /* Conf Sizes */
+    --container-larger-l: 80%;
+    --container-larger-m: 80%;
+    --container-larger-s: 80%;
+    --container-tablet: 90%;
+    --container-small-d: 95%;
+    --grid-width: 20%;
+    --grid-height: 20%;
+    /* End conf Sizes */
+}
+
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* End global */
+
+/* pagina */
+body {
+    background: var(--body-color-normal);
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+/* end pagina */
+
+/* Utils */
+.sticky-top {
+    position: sticky;
+    top: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.grid-temp {
+    width: var(--grid-width); height: var(--grid-height);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.primary-color{
+    background: var(--primary-color-medium);
+}
+
+.secondary-color{
+    background: var(--secondary-color-normal);
+}
+
+.hd-color-black {
+    color: var(--black-color-normal);
+}
+
+.hd-color-white {
+    color: var(--white-color-normal);
+}
+/* End utils */
+
+
+
+/* Responsividade */
+
+@media (max-width: 575.99px) { 
+    .container {
+        margin: 0 auto;
+        width: var(--container-small-d);
+    }
+
+    header {
+        height: 35px;
+    }
+
+    #menu {
+        height: 40px;
+    }
+
+    #menu a {
+        color: var(--white-color-normal);
+        margin: 5pxpx 5%;
+        padding: 10px 5%;
+    }
+
+    #menu a:hover {
+        background-color: var(--secondary-color-light);
+    }
+}
+
+@media (min-width: 576px) { 
+    .container {
+        margin: 0 auto;
+        width: var(--container-small-d);
+    }
+
+    header {
+        height: 35px;
+    }
+
+    #menu {
+        height: 40px;
+    }
+
+    #menu a {
+        color: var(--white-color-normal);
+        margin: 5pxpx 5%;
+        padding: 10px 5%;
+    }
+
+    #menu a:hover {
+        background-color: var(--secondary-color-light);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container {
+        margin: 0 auto;
+        width: var(--container-tablet);
+    }
+
+    header {
+        height: 45px;
+    }
+
+    #menu {
+        height: 40px;
+    }
+
+    #menu a {
+        color: var(--white-color-normal);
+        margin: 5pxpx 5%;
+        padding: 10px 5%;
+    }
+
+    #menu a:hover {
+        background-color: var(--secondary-color-light);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container {
+        margin: 0 auto;
+        width: var(--container-larger-s);
+    }
+
+    header {
+        height: 55px;
+    }
+
+    #menu {
+        height: 40px;
+    }
+
+    #menu a {
+        color: var(--white-color-normal);
+        margin: 5pxpx 5%;
+        padding: 10px 5%;
+    }
+
+    #menu a:hover {
+        background-color: var(--secondary-color-light);
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container {
+        margin: 0 auto;
+        width: var(--container-larger-m);
+    }
+
+    header {
+        height: 65px;
+    }
+
+    #menu {
+        height: 40px;
+    }
+
+    #menu a {
+        color: var(--white-color-normal);
+        margin: 5pxpx 5%;
+        padding: 10px 5%;
+    }
+
+    #menu a:hover {
+        background-color: var(--secondary-color-light);
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .container {
+        margin: 0 auto;
+        width: var(--container-larger-l);
+    }
+
+    header {
+        height: 75px;
+    }
+
+    #menu {
+        height: 40px;
+    }
+
+    #menu a {
+        color: var(--white-color-normal);
+        margin: 5pxpx 5%;
+        padding: 10px 5%;
+    }
+
+    #menu a:hover {
+        background-color: var(--secondary-color-light);
+    }
+}
+/* End responsividade */
