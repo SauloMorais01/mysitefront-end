@@ -212,7 +212,7 @@ footer h3 {
 }
 
 .search-item:hover .search-text {
-    width: 320px;
+    width: 80%;
 }
 
 .search-item:hover .search-btn {
