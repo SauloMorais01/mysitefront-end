@@ -73,10 +73,6 @@ main {
 
 footer {
     height: 60px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    transform: translateY(0%);
 }
 
 footer h3 {
@@ -254,10 +250,7 @@ footer h3 {
     }
 
     header {
-        position: fixed;
-        top: 0;
         height: 40px;
-        width: 100%;
     }
 
     #menu {

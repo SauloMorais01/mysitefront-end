@@ -75,8 +75,7 @@ footer {
     height: 60px;
     position: fixed;
     bottom: 0;
-    width: 100%;
-    transform: translateY(0%);
+    transform: translateY(-40%);
 }
 
 footer h3 {

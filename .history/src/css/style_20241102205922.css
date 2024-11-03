@@ -69,14 +69,11 @@ a {
 
 main {
     height: 100vh;
+    margin-top: 40px;
 }
 
 footer {
     height: 60px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    transform: translateY(0%);
 }
 
 footer h3 {
@@ -258,6 +255,7 @@ footer h3 {
         top: 0;
         height: 40px;
         width: 100%;
+        overflow-y: 40px;
     }
 
     #menu {
@@ -341,7 +339,11 @@ footer h3 {
     }
 
     header {
+        position: fixed;
+        top: 0;
         height: 40px;
+        width: 100%;
+        overflow-y: 40px;
     }
 
     #menu {
@@ -429,7 +431,11 @@ footer h3 {
     }
 
     header {
+        position: fixed;
+        top: 0;
         height: 50px;
+        width: 100%;
+        overflow-y: 40px;
     }
 
     #menu {
@@ -514,6 +520,7 @@ footer h3 {
 
     header {
         height: 60px;
+        display: block;
     }
 
     #menu {
@@ -594,6 +601,7 @@ footer h3 {
 
     header {
         height: 70px;
+        display: block;
     }
 
     #menu {
@@ -659,6 +667,7 @@ footer h3 {
 
     header {
         height: 75px;
+        display: block;
     }
 
     #menu {
