@@ -412,7 +412,7 @@ footer h3 {
     }
 
     .divisor-top {
-        height: 4.8%;
+        height: 4.8px;
     }
 }
 
@@ -507,7 +507,7 @@ footer h3 {
     }
 
     .divisor-top {
-        height: 0%;
+        height: 4.8px;
     }
 }
 
@@ -599,7 +599,7 @@ footer h3 {
     }
 
     .divisor-top {
-        height: 0%;
+        height: 4%;
     }
 }
 
@@ -681,14 +681,6 @@ footer h3 {
     .info-top p {
         font-size: 1.0rem;
     }
-
-    .divisor-bottom {
-        height: 60px;
-    }
-
-    .divisor-top {
-        height: 0%;
-    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -753,14 +745,6 @@ footer h3 {
 
     .info-top p {
         font-size: 1.5rem;
-    }
-
-    .divisor-bottom {
-        height: 60px;
-    }
-
-    .divisor-top {
-        height: 0%;
     }
 }
 
@@ -830,14 +814,6 @@ footer h3 {
     .info-top p {
         font-size: 1.5rem;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-
-    .divisor-bottom {
-        height: 60px;
-    }
-
-    .divisor-top {
-        height: 0%;
     }
 }
 /* End responsividade */
