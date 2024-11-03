@@ -213,7 +213,7 @@ footer h3 {
 }
 
 .search-item:hover .search-text {
-    width: 270px;
+    width: 320px;
 }
 
 .search-item:hover .search-btn {
@@ -229,39 +229,6 @@ footer h3 {
     display: block;
 }
 /* end Search area */
-
-/* Blog conteúdo */
-.box-contents-blog {
-    margin-top: 10px;
-    padding-bottom: 100px;
-}
-
-.box-B {
-    padding: 10px;
-    color: var(--white-color-normal);
-    width: 250px;
-    height: auto;
-    margin: 5px;
-    background: var(--primary-color-medium);
-    border-radius: 5px;
-}
-
-.box-B img {
-    width: 100%;
-}
-
-
-.b-link {
-    width: 100%;
-    padding-top: 20px;
-    text-align: right;
-}
-
-.box-B a {
-    color: var(--secondary-color-normal);
-    
-}
-/* fim blog conteúdo */
 
 
 /* Animation */

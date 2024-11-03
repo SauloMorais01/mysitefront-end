@@ -232,8 +232,8 @@ footer h3 {
 
 /* Blog conteúdo */
 .box-contents-blog {
-    margin-top: 10px;
-    padding-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .box-B {
@@ -250,16 +250,11 @@ footer h3 {
     width: 100%;
 }
 
-
-.b-link {
+.box-B a {
     width: 100%;
+    color: var(--secondary-color-normal);
     padding-top: 20px;
     text-align: right;
-}
-
-.box-B a {
-    color: var(--secondary-color-normal);
-    
 }
 /* fim blog conteúdo */
 

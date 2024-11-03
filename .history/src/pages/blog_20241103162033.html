@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo - status</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/utils.js"></script>
+    <script src="https://kit.fontawesome.com/0869671a59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="divisor-top"></div>
+
+    <header class="primary-color hd-color-white">
+        <div class="container">
+            <div class="top-box flex">
+                <div class="logo">
+                    <a class="hd-color-white" href="/"><h1>Logo</h1></a>
+                </div>
+                <div class="login">
+                    <a class="hd-color-white" href="/">Login</a>
+                </div> 
+                <div class="hover-btn" id="hover-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="menu" class="sticky-top primary-color hd-color-white">
+            <div class="container center">
+                <a href="/">Home</a>
+                <a href="/blog.html">Blog</a>
+                <a href="/">Projetos</a>
+                <a href="/">Sobre</a>
+            </div>
+    </section>
+
+    <section id="modal-mobile-menu" class="modal-mobile-menu hidden">
+        <div class="container center">
+            <div class="modal-div">
+                <a class="hd-color-white" href="/">Home</a>
+            </div>
+            <div class="modal-div">
+                <a class="hd-color-white" href="./src/pages/blog.html">Blog</a>
+            </div>
+           <div class="modal-div">
+                <a class="hd-color-white" href="/">Projetos</a>
+           </div>
+            <div class="modal-div">
+                <a class="hd-color-white" href="/">Sobre</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="search-item">
+            <div class="search-box">
+                <input type="text" placeholder="Pesquisar..." class="search-text" name="search" id="search-text">
+                <a class="search-btn">
+                    <img class="btn-blue" src="../img/icone/magnifying-glass-solid.svg" width="25" height="25" alt="pesquisar">
+                    <img class="btn-white" src="../img/icone/magnifying-glass-solid-white.svg" width="25" height="25" alt="pesquisar">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="box-contents-blog">
+            <div class="container">
+                <div class="blog-content grid-temp"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="primary-color center">
+        <h3 class="hd-color-white">&copy;<strong>Site</strong> Todos os direitos reservados</h3>
+    </footer>
+
+    <div class="divisor-bottom"></div>
+
+    
+
+    <script src="../js/main.js"></script>
+
+    <script>
+        app.update();
+    </script>
+</body>
+</html>
